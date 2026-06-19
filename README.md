@@ -16,6 +16,9 @@ Grafana has been configured and capture in visual mode SQL injection and XSS.
 
 <img width="1047" height="488" alt="image" src="https://github.com/user-attachments/assets/a5a804dd-c86d-4bae-9a20-bc9a611533a4" />
 
+In Burp several times used XSS and it is visible in Grafana 
+
+<img width="986" height="450" alt="image" src="https://github.com/user-attachments/assets/86a4d367-1814-492f-804d-b4559dbcf161" />
 
 
 I have added rules to WAF for block XSS and SQL injection.
