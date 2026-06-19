@@ -1,6 +1,10 @@
-I set up a lab on a virtual machine using the Juice Shop API, which is built on a Docker container.
-I carried out simulated SQL injection and XSS attacks, and then captured the traffic visible from the terminal in the logs. 
-I also used Burp for testing and intercepting requests, and finally, I added rules to the WAF web firewall.
+I built my own testing environment for web application security analysis, based on OWASP Juice Shop running in Docker.
+I used Burp Suite to simulate attacks such as SQL injection, XSS, and simple command injection payloads.
+HTTP traffic was intercepted by an Nginx proxy, which also served as a Web Application Firewall implemented rules to block characteristic attack patterns, such as OR 1=1 or <script>.
+Application logs were recorded by Nginx and processed using Promtail, then sent to Loki, and visualized in Grafana.
+In Grafana, I created a dashboard that displays potentially malicious activity in real time, such as spikes corresponding to SQL injection or XSS.
+Additionally, I wrote a simple Python script that analyzes logs and generates alerts based on attack patterns.
+This allowed me to go through the entire process: from simulating an attack, to detecting it in the logs, to visualizing it and blocking it at the WAF level.
 
 
 
