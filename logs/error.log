@@ -1,0 +1,7 @@
+2026/06/17 15:47:20 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/nginx/conf/server.crt"
+2026/06/17 15:47:20 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/846/0)
+2026/06/17 15:47:20 [notice] 1#1: libmodsecurity3 version 3.0.15
+2026/06/17 15:47:42 [warn] 1#1: "ssl_stapling" ignored, issuer certificate not found for certificate "/etc/nginx/conf/server.crt"
+2026/06/17 15:47:42 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/846/0)
+2026/06/17 15:47:42 [notice] 1#1: libmodsecurity3 version 3.0.15
+2026/06/17 16:39:19 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/nginx.conf:16
