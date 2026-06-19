@@ -11,7 +11,16 @@ This allowed me to go through the entire process: from simulating an attack, to 
 <img width="1081" height="388" alt="image" src="https://github.com/user-attachments/assets/77591c4f-ff06-4e37-8314-a323b4e54c41" />
 
 
+A successful SQL injection that gives us access to the site, along with visible traffic in the logs following this action.
+
+
 <img width="889" height="168" alt="image" src="https://github.com/user-attachments/assets/a766316b-a9b5-4617-88e0-7a5488f56919" />
+
+An attack was also carried out using “Burp,” but this time it was an XSS attack, and traffic was also visible in the logs; the logs were modified for Kibane, which is why their syntax differs.
+
+
+
+
 
 Kibana was launched via Docker containers and configured to capture logs.
 
