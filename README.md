@@ -7,6 +7,8 @@ I also used Burp for testing and intercepting requests, and finally, I added rul
 <img width="1081" height="388" alt="image" src="https://github.com/user-attachments/assets/77591c4f-ff06-4e37-8314-a323b4e54c41" />
 
 
+<img width="889" height="168" alt="image" src="https://github.com/user-attachments/assets/a766316b-a9b5-4617-88e0-7a5488f56919" />
+
 Kibana was launched via Docker containers and configured to capture logs.
 
 <img width="1064" height="563" alt="image" src="https://github.com/user-attachments/assets/84deff14-6d62-40b0-9c51-28ec89b0c2d2" />
@@ -19,6 +21,9 @@ Grafana has been configured and capture in visual mode SQL injection and XSS.
 In Burp several times used XSS and it is visible in Grafana 
 
 <img width="986" height="450" alt="image" src="https://github.com/user-attachments/assets/86a4d367-1814-492f-804d-b4559dbcf161" />
+
+
+<img width="283" height="178" alt="image" src="https://github.com/user-attachments/assets/6ec2382d-f434-493b-af20-eb23a6459207" />
 
 
 I have added rules to WAF for block XSS and SQL injection.
